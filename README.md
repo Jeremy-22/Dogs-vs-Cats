@@ -5,7 +5,7 @@ Red para clasificacion entre perros y gatos, a partir de esto poder familiarizar
 La primera red convolucional que se realizo a partir del repositorio dado [Gatos-y-Perros](https://dagshub.com/jorgevc/Gatos-y-Perros.git) de donde también se tomó la base de datos, esto con la [red](https://github.com/Jeremy-22/Dogs-vs-Cats/blob/main/RedConv2.ipynb) que se realizo en Colab y se puede ver mejor en [Wandb.ia](https://wandb.ai/jeryrangmart/Dogs-cats?workspace=user-jeryrangmart) la comparación de las metricas.
 
 
-En base con la primera red se realizo la misma [red](https://github.com/Jeremy-22/Dogs-vs-Cats/blob/main/RedConv2D.ipynb) pero con ciertos parametros diferentes y también se implemento el regularizador L1-L2 y se obtuvieron los resultados de relizar 4 pruebas y un experimento, con una metrica accuracy de 0.859 y un val_accuracy de 0.807, la cual nombre como mejor prueba que se visualizan en [Wandb.ia](https://wandb.ai/jeryrangmart/DogsvsCats?workspace=user-jeryrangmart).
+En base con la primera red se realizo la misma [red](https://github.com/Jeremy-22/Dogs-vs-Cats/blob/main/RedConv2D.ipynb) pero con ciertos parametros diferentes y también se implemento el regularizador L1-L2 y se obtuvieron los resultados de relizar 4 pruebas y un experimento, por otro lado se obtuvo una prueba con una metrica accuracy de 0.859 y un val_accuracy de 0.807, la cual nombre como mejor prueba, la cual se puede visualizar en [Wandb.ia](https://wandb.ai/jeryrangmart/DogsvsCats?workspace=user-jeryrangmart), y en el experimento se implemento en las dos primeras capas el regularizador L1-L2 y se aumentaron el número de filtros, algo que se pudo notar mejor es la función de costo (Loss) la cual estuvo con mejor equilibrio con val_loss.
 
 ### Atribuciones
 
